@@ -1,0 +1,70 @@
+
+
+
+   README.DOC
+
+                     Txplus Software Version 5.19
+
+ Note to users of Hard Disk compresssion software (i.e. Stacker, SuperStore)
+
+       If any difficulties are encountered during a backup using a 
+       compression software, it may be necessary to utilize the
+       the special executable file found on the floppy disks that
+       provide the TapeXchange software. Use the following procedure.
+
+         1. Copy the file TXPLUSTA.EXE from the TapeXchange floppy to
+	    the TXPLUS directory on your hard drive.
+
+         2. Change to the TXPLUS directory.
+
+	 3. Invoke TapeXchange by entering TXPLUSTA
+
+	 4. Use the TapeXchange in a normal manner.
+
+ 
+      Users are cautioned to not use this procedure unless required to do
+      so by incompatibility problems. This executable uses a slightly
+      different and somewhat slower methodology to access hard disk
+      information thereby increasing backup time.
+
+
+
+
+   This version of software also includes support for additional tape
+            drives including the Sony DAT and the TX2000.
+
+   NOTE: The Sony DAT drive is being introduced with this software
+	 release. This drive is identifable by the presence of
+	 3 LED indicators on the front. These are: BUSY, TAPE, STATUS.
+
+	 The drive also features an automatic notification that the
+	 tape drive needs to be cleaned. This notification is presented
+	 to the user by a flashing "STATUS" LED when the drive is in
+	 a normal condition and no drive read or write activity is
+	 taking place. The LED will flash ON for 3.5 seconds and OFF
+	 for 0.5 seconds. This indication will continue until the heads
+	 have been cleaned using an authorized cleaning kit. This kit
+	 is available from your Dealer and is identified as a SONY
+	 CLEANING CARTRIDGE Model 5CL.
+
+
+   The following items are not contained in the manual and should 
+   be noted by the user.
+
+     1. If the user starts a backup while logged into a Novell
+        network and that backup spans midnight according to
+        Novell time, Novell will not update the user's PC date
+        after crossing midnight. The PC date can be corrected
+        manually or by re-logging into the Novell network after
+        completing the backup.
+
+     2. The TapeXchange printer pass-through port is designed for
+        use with printers only and should not be used to connect
+        other devices.
+
+     3. The use of "background" printing processes (i.e. spooling)
+        is not allowed while the TapeXchange unit is in use for
+        backup, restore, or list functions.
+
+
+
